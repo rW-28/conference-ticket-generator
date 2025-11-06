@@ -1,0 +1,200 @@
+/* main styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("./images/background-desktop.png");
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+body::after {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    inset: 0;
+    background: url('./images/pattern-lines.svg');
+    background-size: contain;
+}
+
+main {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.logo-img {
+    margin: 15px;
+}
+h1 {
+    margin-top: 0;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 30px;;
+
+    font-size: 25px;
+}
+.gradient-text {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(90deg, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* form/query styles */
+.container-form {
+    border: 3px solid hsl(7, 88%, 67%);
+
+    height: 100%;
+
+    padding: 40px;
+
+    margin: 30px;
+}
+
+/* main form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* input field styles */
+input {
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    font-size: 16px;
+
+    background: none;
+    color: white;
+}
+
+
+/* photo upload field styles */
+.avatar-form {
+    border: 2px dashed rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+} 
+.avatar-form input {
+    display: none;
+}
+.avatar-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.avatar-form img {
+    width: 40px;
+    opacity: 0.7;
+}
+.avatar-upload {
+    text-align: left;
+    font-size: 16px;
+}
+.avatar-title {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+/*button styles*/
+button {
+    height: 60px;
+    width: 100%;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    background-color: hsl(7, 88%, 67%);
+
+    cursor: pointer;
+
+    margin-top: 30px;
+}
+button:hover {
+    background-color: hsl(7, 71%, 60%);
+}
+
+/* ticket file */
+.main-ticket::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 400px;
+    margin: 350px auto;
+    background: url('./images/pattern-ticket.svg') no-repeat;
+    background-size: contain;
+}
+
+.congrats-title {
+    margin-bottom: 30px;
+}
+.colored-text {
+    color:  hsl(7, 88%, 67%);
+}
+.ticket-logo-img {
+    margin: 10px;
+    margin-left: 0;
+}
+.ticket {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.ticket-logo-img {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 300px;
+    height: 90px;
+    margin: 0;
+}
+.date-name {
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    font-size: 18px;
+    opacity: 0.5;
+}
+#display-name {
+    position: absolute;
+    top: 180px;
+    left: 90px;
+    font-size: 35px;
+}
+#display-gitHub {
+    position: absolute;
+    top: 225px;
+    left: 90px;
+    font-size: 22px;
+}
+.ticket-number {
+    position: absolute;
+    right: -5px; /* немного за пределами билета */
+    top: 115px;
+    transform: rotate(90deg) translateY(-50%);
+    transform-origin: center;
+    font-size: 25px;
+    color: #888;
+    letter-spacing: 2px;
+}
