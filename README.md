@@ -24,6 +24,8 @@ ScreenShots
 <img width="1902" height="887" alt="Снимок экрана 2025-11-07 181644" src="https://github.com/user-attachments/assets/19a62181-6051-47b1-bbca-a0ed1c83ccb7" />
 <img width="1891" height="890" alt="Снимок экрана 2025-11-07 181655" src="https://github.com/user-attachments/assets/da414b8b-49f1-4e50-90e8-f4e09117a802" />
 
+Live Demo
+  [View on GitHub Pages](https://rw-28.github.io/conference-ticket-generator/)
 
   Project Structure
 conference-ticket-generator/
