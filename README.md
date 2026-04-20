@@ -1,8 +1,6 @@
 # conference-ticket-generator
 Simple landing page with HTML, CSS, and JS
 
-Simple landing page with HTML, CSS, and JS
-
 A simple web app built with HTML, CSS, and JavaScript that generates a digital conference ID card based on user input.
 
 Features
@@ -27,3 +25,5 @@ What I Learned
 - Reading and displaying uploaded images via FileReader.
 - Designing a simple, responsive layout with CSS.
 - Structuring a small front-end project and publishing it online.
+
+Project Structure ├── index.html ├── index.js ├── ticket.html ├── ticket.js ├── styles.css └── images/
