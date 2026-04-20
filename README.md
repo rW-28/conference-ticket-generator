@@ -16,6 +16,8 @@ Technologies Used
 - CSS3
 - JavaScript (DOM, localStorage, FileReader API)
 
+Live Demo:  https://rw-28.github.io/conference-ticket-generator/
+
 <img width="1920" height="883" alt="Снимок экрана 2026-04-20 171452" src="https://github.com/user-attachments/assets/5f72e8da-9058-43fb-a131-b112844c8584" />
 <img width="1920" height="883" alt="Снимок экрана 2026-04-20 171511" src="https://github.com/user-attachments/assets/5d17b1dc-9c34-4394-b8f5-033559f60aa9" />
 
